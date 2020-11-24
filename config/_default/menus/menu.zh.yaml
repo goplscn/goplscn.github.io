@@ -1,0 +1,20 @@
+main:
+  - name: "首页"
+    url: ""
+    weight: -110
+
+  - name: "归档"
+    url: "post/"
+    weight: -109
+
+  - name: "分类"
+    url: "categories/"
+    weight: -108
+
+  - name: "标签"
+    url: "tags/"
+    weight: -107
+
+  - name: "关于"
+    url: "about/"
+    weight: -106

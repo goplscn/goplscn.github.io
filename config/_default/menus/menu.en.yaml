@@ -1,0 +1,20 @@
+main:
+  - name: "Home"
+    url: ""
+    weight: -110
+
+  - name: "Archives"
+    url: "post/"
+    weight: -109
+
+  - name: "Categories"
+    url: "categories/"
+    weight: -108
+
+  - name: "Tags"
+    url: "tags/"
+    weight: -107
+
+  - name: "About"
+    url: "about/"
+    weight: -106
