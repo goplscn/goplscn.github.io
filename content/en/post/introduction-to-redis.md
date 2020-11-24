@@ -1,7 +1,6 @@
 ---
 title: Redis 简介
 date: 2020-01-05 13:33:05
-language: en
 tags:
   - redis
 categories:
