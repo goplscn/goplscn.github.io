@@ -12,7 +12,7 @@ categories:
 
 服务端测试中，被测服务通常依赖于一系列的外部模块，被测服务与外部模块间通过REST API调用来进行通信。要对被测服务进行系统测试，一般做法是，部署好所有外部依赖模块，由被测服务直接调用。然而有时被调用模块尚未开发完成，或者调用返回不好构造，这将影响被测系统的测试进度。为此我们需要开发桩模块，用来模拟被调用模块的行为。最简单的方式是，对于每个外部模块依赖，都创建一套桩模块。然而这样的话，桩模块服务将非常零散，不便于管理。Mock Server为解决这些问题而生，其提供配置request及相应response方式来实现通用桩服务。本文将专门针对REST API来进行介绍Mock Server的整体结构及应用案例。
 
-  {% asset_img 311516-20170912180553860-879452344.png %}
+  ![mockserver](./mockserver-intro/311516-20170912180553860-879452344.png)
 
 
 
@@ -20,15 +20,15 @@ categories:
 
 #### 1. 返回“模拟”响应
 
-  {% asset_img expectation_response_action.png Title:"Response Action Expectation" %}
+  ![Response Action Expectation](./mockserver-intro/expectation_response_action.png)
 
 #### 2. 执行回调，动态创建响应
 
-  {% asset_img expectation_callback_action.png Title:"Callback Action Expectation" %}
+  ![Callback Action Expectation](./mockserver-intro/expectation_callback_action.png)
 
 #### 3. 返回异常或无效响应
 
-  {% asset_img expectation_error_action.png Title:"Error Action Expectation" %}
+  ![Error Action Expectation](./mockserver-intro/expectation_error_action.png)
 
 
 

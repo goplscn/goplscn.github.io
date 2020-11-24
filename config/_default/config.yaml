@@ -56,6 +56,8 @@ mainSections: ["post"] # see config details here https://gohugo.io/functions/whe
 # center logo on navbar
 centerLogo: false # Set to "true" for centering or "false" for left aligned.
 
+logo: "images/avatar.png"
+
 # Label Non inline images on an article body
 figurePositionShow: false # toggle on or off globally
 # you can toggle this behaviour on or off on per page using the same variable inside your articles frontmatter

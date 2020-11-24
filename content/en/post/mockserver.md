@@ -36,27 +36,27 @@ MockServer supports the follow **actions**:
 
 - return a "mock" [response](https://www.mock-server.com/mock_server/creating_expectations.html#mock_response)  when a request matches an  expectation
 
-  {% asset_img 3029ee6966714aa80ad422f1342f5aee.png From: MOCK-SERVER.COM %}
+  ![From: MOCK-SERVER\.COM](./mockserver/3029ee6966714aa80ad422f1342f5aee.png)
 
 - [forward](https://www.mock-server.com/mock_server/creating_expectations.html#mock_forward) a request when the request matches an expectation (i.e. a dynamic port forwarding proxy)
 
-  {% asset_img 4d8b4734a83b5114138cde558b9326fc.png From: MOCK-SERVER.COM %}
+  ![From: MOCK-SERVER\.COM](./mockserver/4d8b4734a83b5114138cde558b9326fc.png)
 
 - execute a [callback](https://www.mock-server.com/mock_server/creating_expectations.html#callback) when a request matches an expectation, allowing the response to be created dynamically
 
-  {% asset_img 157c6d2c9e7e7834fb03b5c48ec8b373.png From: MOCK-SERVER.COM %}
+  ![From: MOCK-SERVER\.COM](./mockserver/157c6d2c9e7e7834fb03b5c48ec8b373.png)
 
 - return an [invalid response](https://www.mock-server.com/mock_server/creating_expectations.html#mock_error) or close the connection when a request matches an expectation
 
-  {% asset_img 757616e3156e6451bb53c22da049c8c4.png From: MOCK-SERVER.COM %}
+  ![From: MOCK-SERVER\.COM](./mockserver/757616e3156e6451bb53c22da049c8c4.png)
 
 - [verify](https://www.mock-server.com/mock_server/verification.html) requests have been sent (i.e. as a test assertion)
 
-  {% asset_img 78add90a990f587870a4d3584953b999.png From: MOCK-SERVER.COM %}
+  ![From: MOCK-SERVER\.COM](./mockserver/78add90a990f587870a4d3584953b999.png)
 
 - [retrieve](https://www.mock-server.com/mock_server/verification.html) logs, requests or expectations to help debug
 
-  {% asset_img 772ab863e64b2d9e224d79bf934f5351.png From: MOCK-SERVER.COM %}
+  ![From: MOCK-SERVER\.COM](./mockserver/772ab863e64b2d9e224d79bf934f5351.png)
 
 
 
@@ -139,11 +139,11 @@ This is useful in the following scenarios:
 
 Given a system with service dependencies, as follows:
 
-{% asset_img 644da0940b9aa53e464517b8fdf417ea.png From: MOCK-SERVER.COM %}
+![From: MOCK-SERVER\.COM](./mockserver/644da0940b9aa53e464517b8fdf417ea.png)
 
 MockServer could be used to mock the service dependencies, as follows:
 
-{% asset_img a0b9a26003db9061b4bdcf2b70ada552.png From: MOCK-SERVER.COM %}
+![From: MOCK-SERVER\.COM](./mockserver/a0b9a26003db9061b4bdcf2b70ada552.png)
 
 
 
@@ -151,11 +151,11 @@ MockServer could be used to mock the service dependencies, as follows:
 
 A single page application may load static resources such as HTML, CSS and JavaScript from a web server and also make AJAX calls to one or more separate services, as follows:
 
-{% asset_img 826e507aa151b736158dbfa04f3d94bd.png From: MOCK-SERVER.COM %}
+![From: MOCK-SERVER\.COM](./mockserver/826e507aa151b736158dbfa04f3d94bd.png)
 
 To isolate a single AJAX service, for development or debugging, the MockServer can selectively forward specific requests to local instance of the service:
 
-{% asset_img 7c45fd25df7cb266328a742bc0333e20.png From: MOCK-SERVER.COM %}
+![From: MOCK-SERVER\.COM](./mockserver/7c45fd25df7cb266328a742bc0333e20.png)
 
 Using MockServer as a content routing load balancer is described in more detail in the section called [Isolate Single Service](https://www.mock-server.com/mock_server/isolating_single_service.html).
 
@@ -182,7 +182,7 @@ This is useful in the following scenarios:
 
 MockServer can record all proxied requests, as follows:
 
-{% asset_img 7e764df0604ea8f5978f07ca85743751.png From: MOCK-SERVER.COM %}
+![From: MOCK-SERVER\.COM](./mockserver/7e764df0604ea8f5978f07ca85743751.png)
 
 
 
@@ -190,7 +190,7 @@ MockServer can record all proxied requests, as follows:
 
 MockServer can verify proxied service requests, as follows:
 
-{% asset_img 7a89cd0f16ed918b9b0d0ccd52256152.png From: MOCK-SERVER.COM %}
+![From: MOCK-SERVER\.COM](./mockserver/7a89cd0f16ed918b9b0d0ccd52256152.png)
 
 
 
