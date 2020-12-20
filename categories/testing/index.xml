@@ -55,8 +55,7 @@ a mock configured to return specific responses for different requests a proxy re
 如果a、b、c满足条件（1）~（4），则输出下列四种情况之一：
 如果不满足条件（5），则程序输出为“非三角形” 如果三条边相等即满足条件（7），则程序输出为“等边三角形” 如果只有两条边相等，及满足条件（6），则程序输出为“等腰三角形” 如果三条边都不相等，则程序输出为“一般三角形” 列出等价类表并编号 覆盖有效等价类的测试用例：
 a b c覆盖等价类号码
-覆盖无效等价类的测试用例：
-覆盖有效等价类的测试用例：</description></item><item><title>Android随机测试工具Monkey简介</title><link>https://goplscn.github.io/post/android-adb-shell-monkey-abc/</link><pubDate>Mon, 23 Dec 2019 16:11:14 +0000</pubDate><guid>https://goplscn.github.io/post/android-adb-shell-monkey-abc/</guid><description>Monkey 是一个在模拟器或设备上运行的程序，可生成伪随机用户事件（例如点击、轻触或手势）流以及很多系统级事件。您可以使用 Monkey 以随机且可重复的方式对正在开发的应用进行压力测试。
+覆盖无效等价类的测试用例：</description></item><item><title>Android随机测试工具Monkey简介</title><link>https://goplscn.github.io/post/android-adb-shell-monkey-abc/</link><pubDate>Mon, 23 Dec 2019 16:11:14 +0000</pubDate><guid>https://goplscn.github.io/post/android-adb-shell-monkey-abc/</guid><description>Monkey 是一个在模拟器或设备上运行的程序，可生成伪随机用户事件（例如点击、轻触或手势）流以及很多系统级事件。您可以使用 Monkey 以随机且可重复的方式对正在开发的应用进行压力测试。
 概览 Monkey 是一个命令行工具，可以在任何模拟器实例或设备上运行。它会将伪随机用户事件流发送到系统中，从而在您正在开发的应用软件上进行压力测试。
 Monkey 包含许多选项，主要分为以下四个类别：
 基本配置选项，例如设置要尝试的事件数。 操作限制条件，例如将测试对象限制为单个软件包。 事件类型和频率。 调试选项。 Monkey 在运行时会生成事件并将其发送到系统。它还会监视被测系统并查找三种特殊情况：
