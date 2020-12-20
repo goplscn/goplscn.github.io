@@ -1,0 +1,3 @@
+  <p class="md__image">
+    <img src="/post{{ .Destination | relURL | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
+  </p>
